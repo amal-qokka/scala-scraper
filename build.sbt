@@ -3,8 +3,8 @@ import scalariform.formatter.preferences._
 
 organization in ThisBuild := "net.ruippeixotog"
 
-scalaVersion in ThisBuild := "2.12.2"
-crossScalaVersions in ThisBuild := Seq("2.11.11", "2.12.2")
+scalaVersion in ThisBuild := "2.12.4"
+crossScalaVersions in ThisBuild := Seq("2.11.11", "2.12.4")
 
 lazy val core = project.in(file("core"))
   .enablePlugins(TutPlugin)
